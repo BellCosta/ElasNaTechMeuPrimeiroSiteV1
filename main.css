@@ -1,0 +1,19 @@
+
+#imgcontainer {
+    background-image: url("Estrada.jpg");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+
+.lista{
+    display: flex;
+}
+.coluna{
+    list-style: none;
+    flex: 1; /*Faz com que um item flexível ocupe o espaço disponível restante em relação aos outros itens dentro do mesmo contêiner flex.*/
+}
+    
